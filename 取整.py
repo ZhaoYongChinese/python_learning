@@ -1,8 +1,9 @@
-a = 10.51
-b = int(a)      # 直接截断小数部分，得到10
-c = round(a)    # round函数四舍五入，舍[0,0.5]向下，入(0.5,1)向上
-d = round(a, 1) # round函数可以指定小数位数，这里保留1位小数，得到10.5
-print("a:", a)
-print("b:", b)
-print("c:", c)
-print("d:", d)
+"""
+int(x),截断取整
+round(x),四舍五入取整
+round(x,n),保留n位小数,四舍五入,不会添加0
+"""
+a = 3.5
+print(int(a))  # 3
+print(round(a))  # 4
+print(round(3,1))  # 3
