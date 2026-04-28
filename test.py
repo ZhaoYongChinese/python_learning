@@ -1,5 +1,1 @@
-a = '''
-awd
-adq
-'''
-print(a)
+print(sum(list(range(1, 101))))
