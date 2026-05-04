@@ -1,5 +1,7 @@
-str1 = 'Hello, World!'
-count = str1.count('or')
-print(count)  # 输出: 1
-str2 = reversed(str1)
-print(str2)  # 输出: <reversed object at 0x7f8b8c8e5d30>
+def test_return():
+    return 1,2
+a = test_return()
+c,d = test_return()
+print(c,type(c))  # 输出: 1 <class 'int'>
+print(d,type(d))  # 输出: 2 <class 'int'>
+print(a,type(a))  # 输出: (1, 2)
