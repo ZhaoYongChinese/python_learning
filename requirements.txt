@@ -1,4 +1,5 @@
-conda activate learning
+#conda activate learning
+# python==3.10.20
 numpy==1.23.5
 torch==2.0.0
 torchvision==0.15.1
